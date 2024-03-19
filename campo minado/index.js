@@ -67,7 +67,7 @@ function bandeira(event) {
     var coluna = cell.cellIndex;
     if (cell.className === "blocked") {
         cell.className = "flag";
-        cell.innerHTML = "&#128681;";//&#9873;
+        cell.innerHTML =  "<img src='img/deku.png'>";//&#9873;
     } else if (cell.className === "flag") {
         cell.className = "blocked";
         cell.innerHTML = "";
@@ -129,7 +129,7 @@ function mostrarBombas() {
         for (var j = 0; j < colunas; j++) {
             if (matriz[i][j] === -1) {
                 var cell = tabela.rows[i].cells[j];
-                cell.innerHTML = "&#128163;";
+                cell.innerHTML = "<img src='img/bakugou.png'>";
                 cell.className = "blank";
             }
         }

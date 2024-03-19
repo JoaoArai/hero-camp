@@ -62,3 +62,14 @@ td {
 .n8 {
     color: tomato;
 }
+
+
+#togglee {
+    background-color: #777;
+    border: 0.6vw outset #BBB;
+    padding: 0px 0.6vw;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70px;
+  }
